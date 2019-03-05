@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/gerenxinxi/gerenxinxi",
+    "pages/saoma/saoma"
+  ],
+  "window": {
+    "backgroundTextStyle": "white",
+    "navigationBarBackgroundColor": "#ffe1ff",
+    "navigationBarTitleText": "LikeyRain",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "backgroundColor":"#ffe1ff",
+    "color": "black",
+    "selectedColor": "#43CD80",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "selectedIconPath": "images/yusan.png",
+        "iconPath": "images/yusan.png",
+        "pagePath": "pages/index/index",
+        "text": "地图"
+      },
+      {
+        "selectedIconPath": "images/saoma.png",
+        "iconPath": "images/saoma.png",
+        "pagePath": "pages/saoma/saoma",
+         "text": "扫码"
+      },
+      {
+        "selectedIconPath": "images/fankui.png",
+        "iconPath": "images/fankui.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "selectedIconPath": "images/gerenxinxi.png",
+        "iconPath": "images/gerenxinxi.png",
+        "pagePath": "pages/gerenxinxi/gerenxinxi",
+        "text": "我的信息"
+      }]
+  }
+}
